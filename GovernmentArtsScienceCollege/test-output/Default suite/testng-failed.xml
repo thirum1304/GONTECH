@@ -5,7 +5,8 @@
     <classes>
       <class name="gasct.Browser">
         <methods>
-          <include name="home"/>
+          <include name="homepage"/>
+          <include name="beforelogin"/>
         </methods>
       </class> <!-- gasct.Browser -->
     </classes>
