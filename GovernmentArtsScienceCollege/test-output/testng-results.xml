@@ -2,20 +2,23 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4924" started-at="2019-07-16T11:00:02Z" finished-at="2019-07-16T11:00:07Z">
+  <suite name="Default suite" duration-ms="522" started-at="2019-07-26T12:39:48Z" finished-at="2019-07-26T12:39:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4924" started-at="2019-07-16T11:00:02Z" finished-at="2019-07-16T11:00:07Z">
+    <test name="Default test" duration-ms="522" started-at="2019-07-26T12:39:48Z" finished-at="2019-07-26T12:39:49Z">
       <class name="gasct.Browser">
-        <test-method status="PASS" signature="beforelogin()[pri:0, instance:gasct.Browser@4aed64]" name="beforelogin" is-config="true" duration-ms="4885" started-at="2019-07-16T16:30:02Z" finished-at="2019-07-16T16:30:07Z">
+        <test-method status="PASS" signature="beforelogin()[pri:0, instance:gasct.Browser@53fd30]" name="beforelogin" is-config="true" duration-ms="13607" started-at="2019-07-26T18:09:35Z" finished-at="2019-07-26T18:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforelogin -->
-        <test-method status="FAIL" signature="homepage()[pri:0, instance:gasct.Browser@4aed64]" name="homepage" duration-ms="12" started-at="2019-07-16T16:30:07Z" finished-at="2019-07-16T16:30:07Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="homepage()[pri:0, instance:gasct.Browser@53fd30]" name="homepage" duration-ms="495" started-at="2019-07-26T18:09:48Z" finished-at="2019-07-26T18:09:49Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.WebElement]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at gasct.Browser.homepage(Browser.java:41)
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.By$ByXPath cannot be cast to org.openqa.selenium.WebElement
+	at gasct.Browser.homepage(Browser.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -42,7 +45,7 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
