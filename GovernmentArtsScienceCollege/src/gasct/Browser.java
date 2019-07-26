@@ -39,6 +39,8 @@ public static void beforelogin(){
 	public static void homepage() {
 	//beforelogin();
 	
+	
+	
 		PageFactory.initElements(driver, Browser.class);
 		
 		//driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
